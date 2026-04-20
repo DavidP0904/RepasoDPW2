@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <h4>Sección Principal</h4>
+        <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#proyecto">Proyecto</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+            <li class="nav-item"><a class="nav-link" href="#conceptos">Conceptos</a></li>
+        </ul>
+    </nav>
+    
+    <div class="main-content">
+        <h2>Nombre: David Enrique Perez Bejarano</h2>
+        <h3>Carrera: Sistemas Informáticos</h3>
+        <h3 id="experiencia">Experiencia:</h3>
+        <p>Poseo un sólido conocimiento en el manejo de herramientas de ofimática, especialmente en Microsoft Excel y Word, así como una mecanografía precisa y ágil. Destaco por mi capacidad de aprendizaje, disciplina y compromiso en cada tarea que emprendo, buscando siempre aportar valor en entornos académicos y profesionales.</p>
+        <p> Cuento con un nivel avanzado de inglés certificado por el Centro Boliviano Americano (CBA), lo que me permite desenvolverme con fluidez en la comprensión, redacción y comunicación oral en contextos académicos y profesionales. Esta habilidad me facilita el acceso a información técnica en inglés, la interacción con personas de diferentes culturas y la adaptación a entornos laborales que requieran el manejo del idioma.</p>
+        <label id="proyecto" for="nombre-proyecto">Nombre del proyecto:</label>
+        <input type="text" id="nombre-proyecto" name="nombre-proyecto">
+        <br><br>
+        <label for="descripcion">Descripción:</label>
+        <textarea id="descripcion" name="descripcion"></textarea>
+        <br><br>
+        <label for="categoria">Categoría:</label>
+        <select id="categoria" name="categoria">
+            <option value="desarrollo">Desarrollo</option>
+            <option value="diseño">Diseño</option>
+            <option value="investigación">Investigación</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar" id="boton-enviar">
+    </div>
+    <div class="content">
+        <h3 id="conceptos">Conceptos</h3>
+        <h4>¿Que es un Framework de CSS?</h4>
+        <p>Un Framework de CSS es una colección de reglas y clases predefinidas que facilitan el diseño y la implementación de interfaces web, proporcionando componentes reutilizables y estilos consistentes.</p>
+        <h4>Diferencia clave entre Bootstrap y Tailwind CSS</h4>
+        <p>Bootstrap es un framework de CSS que ofrece una amplia gama de componentes predefinidos y estilos listos para usar, mientras que Tailwind CSS es un framework de utilidad que se centra en proporcionar clases de bajo nivel para construir diseños personalizados sin estilos predefinidos.</p>
+        <h4>Opinion tecnica ¿Cual usaria para un proyecto rapido y por que?</h4>
+        <p>Para un proyecto rápido, preferiría usar Bootstrap debido a su amplia gama de componentes predefinidos y su facilidad de uso, lo que acelera el proceso de desarrollo.</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 David Enrique Perez Bejarano. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
